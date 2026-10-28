@@ -1,0 +1,21 @@
+{
+  "name": "chatroom-free",
+  "version": "2.0.0",
+  "description": "Free no-login chat rooms — Netlify Functions + Netlify Blobs edition",
+  "type": "module",
+  "scripts": {
+    "start": "npx netlify-cli dev",
+    "test": "node test.js",
+    "test:api": "node test-api.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^7.4.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
